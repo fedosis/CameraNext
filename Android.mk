@@ -1,5 +1,7 @@
 LOCAL_PATH:= $(call my-dir)
 
+LOCAL_OVERRIDES_PACKAGES := Camera2
+
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := CameraNext
